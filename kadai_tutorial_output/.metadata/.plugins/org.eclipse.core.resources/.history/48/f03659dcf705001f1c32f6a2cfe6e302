@@ -1,0 +1,18 @@
+spring.datasource.url=jdbc:mysql://${MYSQL_HOST:localhost}:3306/samuraitravel_db
+ spring.datasource.username=root
+ spring.datasource.password=Yo_doro!
+ spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+ spring.sql.init.encoding=utf-8
+ spring.sql.init.mode=always
+ 
+ spring.servlet.multipart.max-file-size=5MB
+
+ spring.mail.host=smtp.gmail.com
+ spring.mail.port=587
+ spring.mail.username=r.ueno.0706@gmail.com
+ spring.mail.password=cwsv yrwz jvln vvma
+ spring.mail.properties.mail.smtp.auth=true
+ spring.mail.properties.mail.smtp.starttls.enable=true
+ 
+ stripe.api-key=sk_test_51PAoGKIH9hdBMJD8F5P4d6f66wk2ARhvJNJaA68yxNSq8ofzpOse45Y8wuGw0wKIFyAL5x81j64m25yNWsQRjwn500JOL9T4a0
+ stripe.webhook-secret=whsec_678346d68d29a75a456f0ce00ef110064b4b53ef2ec4d709c34d181fba89f3d2
