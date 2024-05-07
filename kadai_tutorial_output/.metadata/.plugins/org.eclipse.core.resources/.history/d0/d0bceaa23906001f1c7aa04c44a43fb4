@@ -1,8 +1,0 @@
-const stripe = Stripe('pk_test_51PAoGKIH9hdBMJD8C74OZdUx8Yjs7S456KH3g4oRrN1g0g4ziQ3HCVfIyoQ9UsXiKxxZZlaGl5p2EMP9DsyyfhbN00PKu9BVKB');
-const paymentButton = document.querySelector('#paymentButton');
- 
- paymentButton.addEventListener('click', () => {
-   stripe.redirectToCheckout({
-     sessionId: sessionId
-   })
- });
